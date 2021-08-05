@@ -18,7 +18,7 @@ export default class SectionHero extends React.Component {
             <section id={sectionId} className="block hero-block bg-accent outer">
                 <div className="inner">
                     <div>
-                        <img src
+                         <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
                 {/*
                     <div className="grid">
