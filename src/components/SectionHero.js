@@ -16,9 +16,7 @@ export default class SectionHero extends React.Component {
 
         return (
             <section id={sectionId} >
-                    <div style={{width:'100%', height: '100%'}}>
-                         <img src={withPrefix(image)} alt={imageAlt} />
-                    </div>
+                    
                 
                     <div className="grid">
                         {image && (
