@@ -16,7 +16,7 @@ export default class SectionHero extends React.Component {
 
         return (
             <section id={sectionId}>
-                    <div style={{width: 1000000, height: 10}}>
+                    <div style={{width: 1000000, height: '100%'}}>
                          <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
                 {/*
