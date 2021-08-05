@@ -14,7 +14,7 @@ sections:
       - Lorem ipsum
 
       - dolor sit amet
-    image_alt: lorem-ipsum
+    image_alt: electrica-ccitec
     actions: []
     type: section_hero
     image: /images/ingenieria-electrica-19.jpg
