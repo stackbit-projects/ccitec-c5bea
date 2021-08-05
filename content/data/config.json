@@ -9,11 +9,6 @@
         "has_nav": true,
         "nav_links": [
             {
-                "url": "/",
-                "style": "link",
-                "label": "Hola"
-            },
-            {
                 "label": "lorem-ipsum",
                 "url": "lorem-ipsum",
                 "style": "link",
