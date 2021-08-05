@@ -1,7 +1,7 @@
 ---
 title: Inicio
 sections:
-  - section_id: lorem-ipsum
+  - section_id: Portada
     title: lorem-ipsum
     content: >-
       ## Lorem ipsum
