@@ -15,10 +15,10 @@ export default class SectionHero extends React.Component {
         const actions = _.get(section, 'actions');
 
         return (
-            
-                <div >
-                    <div style={{width:'100%'}}>
-                        <img src={withPrefix(image)} alt={imageAlt} />
+            <section id={sectionId} className="block hero-block bg-accent outer">
+                <div className="inner">
+                    <div>
+                        <img src
                     </div>
                 {/*
                     <div className="grid">
@@ -39,7 +39,7 @@ export default class SectionHero extends React.Component {
                     </div>
                 */}
                 </div>
-            
+            </section>
         );
     }
 }
