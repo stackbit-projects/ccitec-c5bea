@@ -23,7 +23,15 @@ export default class SectionHero extends React.Component {
                                 <img src={withPrefix(image)} alt={imageAlt} />
                             </div>
                         )}
-                        
+                        <div className="cell block-content">
+                            {title && <h2 className="block-title underline">{title}</h2>}
+                            {content && <div className="block-copy">{markdownify(content)}</div>}
+                            {actions && (
+                                <div className="block-buttons">
+                                    <CtaButtons actions={actions} />
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             </section>
