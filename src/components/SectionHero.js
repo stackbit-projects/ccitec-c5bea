@@ -15,7 +15,7 @@ export default class SectionHero extends React.Component {
         const actions = _.get(section, 'actions');
 
         return (
-            <section id={sectionId} >
+            <section id={sectionId} className="block hero-block bg-accent outer">
                     <div style={{width:'100%'}}>
                          <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
