@@ -16,7 +16,7 @@ export default class SectionHero extends React.Component {
 
         return (
             
-                <div className="inner">
+                <div >
                     <div>
                         <img src='https://vvsir.com/wp-content/uploads/2020/12/ingenieria-electrica-19.jpg'/>
                     </div>
