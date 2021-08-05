@@ -17,8 +17,8 @@ export default class SectionHero extends React.Component {
         return (
             
                 <div >
-                    <div style={{width:'100%'}}>
-                        <img src='https://vvsir.com/wp-content/uploads/2020/12/ingenieria-electrica-19.jpg'/>
+                    <div style={{width:'50%'}}>
+                        <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
                 {/*
                     <div className="grid">
