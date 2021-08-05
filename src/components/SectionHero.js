@@ -15,7 +15,7 @@ export default class SectionHero extends React.Component {
         const actions = _.get(section, 'actions');
 
         return (
-            <section id={sectionId} className="block hero-block bg-accent outer">
+            
                 <div className="inner">
                     <div>
                         <img src='https://vvsir.com/wp-content/uploads/2020/12/ingenieria-electrica-19.jpg'/>
@@ -39,7 +39,7 @@ export default class SectionHero extends React.Component {
                     </div>
                 */}
                 </div>
-            </section>
+            
         );
     }
 }
