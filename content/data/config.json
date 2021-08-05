@@ -29,7 +29,8 @@
             },
             {
                 "url": "/signup",
-                "style": "primary"
+                "style": "primary",
+                "label": "Aula Virtual"
             }
         ]
     },
