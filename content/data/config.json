@@ -5,7 +5,7 @@
     "palette": "blue",
     "header": {
         "logo_img": "/images/cropped-CCITEC-2.png",
-        "logo_img_alt": "Logo",
+        "logo_img_alt": "CCITEC-Logo",
         "has_nav": true,
         "nav_links": [
             {
