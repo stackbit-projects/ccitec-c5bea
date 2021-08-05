@@ -17,7 +17,7 @@ sections:
     image_alt: electrica-ccitec
     actions: []
     type: section_hero
-    image: /images/ingenieria-electrica-19.jpg
+    image: /images/ingenieria-de-producto.jpeg
   - section_id: features
     type: section_features
     background: gray
