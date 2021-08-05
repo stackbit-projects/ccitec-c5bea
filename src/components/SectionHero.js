@@ -21,11 +21,7 @@ export default class SectionHero extends React.Component {
                     </div>
                 
                     <div className="grid">
-                        {image && (
-                            <div className="cell block-preview">
-                                <img src={withPrefix(image)} alt={imageAlt} />
-                            </div>
-                        )}
+                        
                         <div className="cell block-content">
                             {title && <h2 className="block-title underline">{title}</h2>}
                             {content && <div className="block-copy">{markdownify(content)}</div>}
