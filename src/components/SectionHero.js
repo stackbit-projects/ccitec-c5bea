@@ -36,6 +36,7 @@ export default class SectionHero extends React.Component {
                             )}
                         </div>
                     </div>
+                */}
             </section>
         );
     }
