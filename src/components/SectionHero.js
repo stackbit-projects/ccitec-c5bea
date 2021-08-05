@@ -19,7 +19,7 @@ export default class SectionHero extends React.Component {
                     <div style={{width:'100%', height: '100%'}}>
                          <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
-                {/*
+                
                     <div className="grid">
                         {image && (
                             <div className="cell block-preview">
@@ -36,7 +36,6 @@ export default class SectionHero extends React.Component {
                             )}
                         </div>
                     </div>
-                */}
             </section>
         );
     }
