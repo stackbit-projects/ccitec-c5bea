@@ -17,7 +17,7 @@ export default class SectionHero extends React.Component {
         return (
             
                 <div >
-                    <div style={{width:'50%'}}>
+                    <div style={{width:'100%'}}>
                         <img src={withPrefix(image)} alt={imageAlt} />
                     </div>
                 {/*
