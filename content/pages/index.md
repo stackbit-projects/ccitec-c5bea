@@ -2,7 +2,7 @@
 title: Inicio
 sections:
   - section_id: Portada
-    title: lorem-ipsum
+    title: CCITEC
     content: >-
       ## Lorem ipsum
 
