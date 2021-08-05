@@ -17,6 +17,7 @@ export default class SectionHero extends React.Component {
         return (
             <section id={sectionId} className="block hero-block bg-accent outer">
                 <div className="inner">
+                {/*
                     <div className="grid">
                         {image && (
                             <div className="cell block-preview">
@@ -33,6 +34,7 @@ export default class SectionHero extends React.Component {
                             )}
                         </div>
                     </div>
+                */}
                 </div>
             </section>
         );
